@@ -37,7 +37,7 @@ for i in range(0,len(tabNo)):
 #CLEANING DATA
 
 #Renaming the columns
-tbRiders = tbRiders.rename(columns = {'Number': 'bike_number', 'Rider Name': 'rider_name', 'Home Country': 'home_country', 'Season': 'season', 'Class': 'class', 'Motorcycle': 'motercycle', 'Team': 'team', 'Race': 'races_participated', 'Win': 'wins', 'Podium': 'podium', 'Pole': 'pole', 'FLap': 'fastest_lap', 'Pts': 'points', 'Plcd': 'placed', 'WCh': 'world_championships'})
+tbRiders = tbRiders.rename(columns = {'Number': 'bike_number', 'Rider Name': 'rider_name', 'Home Country': 'home_country', 'Season': 'season', 'Class': 'class', 'Motorcycle': 'motorcycle', 'Team': 'team', 'Race': 'races_participated', 'Win': 'wins', 'Podium': 'podium', 'Pole': 'pole', 'FLap': 'fastest_lap', 'Pts': 'points', 'Plcd': 'placed', 'WCh': 'world_championships'})
 
 #Cleaning column values
 # tbRiders['points'] = tbRiders['points'].replace({'0*': '0'})
